@@ -6,4 +6,4 @@ install:
 - "pip install pytest"
 - "pip install pytest_bdd"
 - "pip install -r requirements.txt"
-script: python -m pytest tests\step_defs\test_retirement_steps.py
+script: pytest tests\step_defs\test_retirement_steps.py
